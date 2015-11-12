@@ -254,10 +254,10 @@ namespace SFXUtility.Features.Activators
             {
                 if (!bush)
                 {
-                    if (ItemData.Oracles_Lens_Trinket.GetItem().IsOwned() &&
-                        ItemData.Oracles_Lens_Trinket.GetItem().IsReady())
+                    if (ItemData.Oracle_Alteration.GetItem().IsOwned() &&
+                        ItemData.Oracle_Alteration.GetItem().IsReady())
                     {
-                        return ItemData.Oracles_Lens_Trinket.GetItem().Slots.FirstOrDefault();
+                        return ItemData.Oracle_Alteration.GetItem().Slots.FirstOrDefault();
                     }
                     if (ItemData.Greater_Vision_Totem_Trinket.GetItem().IsOwned() &&
                         ItemData.Greater_Vision_Totem_Trinket.GetItem().IsReady())
@@ -289,19 +289,10 @@ namespace SFXUtility.Features.Activators
                     {
                         return ItemData.Greater_Stealth_Totem_Trinket.GetItem().Slots.FirstOrDefault();
                     }
-                    if (ItemData.Scrying_Orb_Trinket.GetItem().IsOwned() &&
-                        ItemData.Scrying_Orb_Trinket.GetItem().IsReady())
+                    if (ItemData.Farsight_Alteration.GetItem().IsOwned() &&
+                        ItemData.Farsight_Alteration.GetItem().IsReady())
                     {
-                        return ItemData.Scrying_Orb_Trinket.GetItem().Slots.FirstOrDefault();
-                    }
-                    if (ItemData.Farsight_Orb_Trinket.GetItem().IsOwned() &&
-                        ItemData.Farsight_Orb_Trinket.GetItem().IsReady())
-                    {
-                        return ItemData.Farsight_Orb_Trinket.GetItem().Slots.FirstOrDefault();
-                    }
-                    if (ItemData.Stealth_Ward.GetItem().IsOwned() && ItemData.Stealth_Ward.GetItem().IsReady())
-                    {
-                        return ItemData.Stealth_Ward.GetItem().Slots.FirstOrDefault();
+                        return ItemData.Farsight_Alteration.GetItem().Slots.FirstOrDefault();
                     }
                 }
             }
