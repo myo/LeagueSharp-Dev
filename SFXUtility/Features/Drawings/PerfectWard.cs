@@ -53,7 +53,6 @@ namespace SFXUtility.Features.Drawings
 
         private readonly List<int> _pinkWards = new List<int>
         {
-            ItemData.Stealth_Ward.Id,
             ItemData.Greater_Stealth_Totem_Trinket.Id
         };
 
