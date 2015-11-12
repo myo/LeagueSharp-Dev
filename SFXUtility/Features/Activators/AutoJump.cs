@@ -231,15 +231,6 @@ namespace SFXUtility.Features.Activators
                 {
                     return ItemData.Greater_Stealth_Totem_Trinket.GetItem().Slots.FirstOrDefault();
                 }
-                if (ItemData.Farsight_Orb_Trinket.GetItem().IsOwned() &&
-                    ItemData.Farsight_Orb_Trinket.GetItem().IsReady())
-                {
-                    return ItemData.Farsight_Orb_Trinket.GetItem().Slots.FirstOrDefault();
-                }
-                if (ItemData.Stealth_Ward.GetItem().IsOwned() && ItemData.Stealth_Ward.GetItem().IsReady())
-                {
-                    return ItemData.Stealth_Ward.GetItem().Slots.FirstOrDefault();
-                }
             }
             catch (Exception ex)
             {
